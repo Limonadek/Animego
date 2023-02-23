@@ -1,0 +1,41 @@
+@import '/frontend/components/header/header.css';
+@import '/frontend/components/descriptionSite/descriptionSite.css';
+@import '/frontend/components/contentContainer/contentContainer.css';
+@import '/frontend/components/content/content.css';
+@import '/frontend/components//loader/loader.css';
+@import '/frontend/components/pageContent/pageContent.css';
+@import '/frontend/components/error/error.css';
+
+
+:root {
+    --color-body-background: #e9ebee;
+    --color-header-background: #343a40;
+    --color-header-border-bottom: #ff5c57;
+    --color-text-primary: #212529;
+    --color-content-background: #f7f7f7;
+    --color-secondary: #ffffff;
+    --color-links: #ff5f67;
+    --color-links-hover: #ff000d;
+    --color-loader-border: #000000;
+    --color-error-status: #ff0000;
+    --color-page-content-border-color: #e5e5e5;
+    --color-page-content-border-watch-background: #ff5c57;
+    --color-page-content-border-watch-background-hover: #ff332f;
+    --color-page-content-border-comment-background: #f0f0f0;
+    --color-page-content-border-comment-background-hover: #cec9c9;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: var(--color-body-background);
+}
+
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+}

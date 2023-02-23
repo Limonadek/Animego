@@ -1,0 +1,24 @@
+.error-container__div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30%;
+    flex-flow: column;
+    padding: 25px 15px 0px 15px;
+}
+
+.error-container__status {
+    font-size: 24px;
+    line-height: 32px;
+    color: var(--color-error-status);
+    font-weight: bold;
+    margin: 0 auto;
+    padding-bottom: 5px;
+}
+
+.error-container__text {
+    font-size: 18px;
+    line-height: 32px;
+    color: var(--color-text-primary);
+    margin: 0 auto;
+}

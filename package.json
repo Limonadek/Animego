@@ -1,0 +1,41 @@
+{
+  "name": "animego",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "node ./backend/server.js",
+    "start": "webpack serve --mode development",
+    "build:dev": "webpack --mode development",
+    "build:prod": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Limonadek/Animego.git"
+  },
+  "keywords": [],
+  "author": "Denis Stepanov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Limonadek/Animego/issues"
+  },
+  "homepage": "https://github.com/Limonadek/Animego#readme",
+  "dependencies": {
+    "body-parser": "1.20.1",
+    "dotenv": "16.0.3",
+    "express": "4.18.2",
+    "handlebars": "4.7.7",
+    "html-webpack-plugin": "^5.5.0",
+    "pg": "8.8.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.3",
+    "eslint": "8.29.0",
+    "handlebars-loader": "^1.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.11.1"
+  }
+}
